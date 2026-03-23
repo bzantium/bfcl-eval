@@ -23,7 +23,7 @@ pip install -e ".[dev]"
 ### CLI
 
 ```bash
-python -m bfcl_eval evaluate \
+python -m bfcl_eval \
   --model <model_name> \
   --test-category <category> \
   --result-dir /path/to/model/results \
