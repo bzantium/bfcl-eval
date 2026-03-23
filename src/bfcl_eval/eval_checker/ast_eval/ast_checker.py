@@ -2,10 +2,10 @@ import re
 
 from bfcl_eval.constants.enums import Language
 from bfcl_eval.constants.type_mappings import JAVA_TYPE_CONVERSION, JS_TYPE_CONVERSION
-from bfcl_eval.checker.ast_eval.type_convertor.java_type_converter import (
+from bfcl_eval.eval_checker.ast_eval.type_convertor.java_type_converter import (
     java_type_converter,
 )
-from bfcl_eval.checker.ast_eval.type_convertor.js_type_converter import (
+from bfcl_eval.eval_checker.ast_eval.type_convertor.js_type_converter import (
     js_type_converter,
 )
 

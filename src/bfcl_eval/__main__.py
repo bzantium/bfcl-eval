@@ -49,7 +49,7 @@ def evaluate(
     ),
 ):
     """Evaluate results from one or more models on a test-category."""
-    from bfcl_eval.checker.eval_runner import main as evaluation_main
+    from bfcl_eval.eval_checker.eval_runner import main as evaluation_main
 
     load_dotenv(dotenv_path=DOTENV_PATH, verbose=True, override=True)
     evaluation_main(
