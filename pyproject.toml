@@ -17,6 +17,16 @@ dependencies = [
     "typer>=0.12.5",
     "tabulate>=0.9.0",
     "python-dotenv>=1.0.1",
+    # multi-turn eval func_source_code dependencies
+    "overrides",
+    "mpmath",
+    "rank-bm25",
+    "beautifulsoup4",
+    "requests",
+    "html2text",
+    "serpapi",
+    "sentence-transformers",
+    "faiss-cpu",
 ]
 
 [project.optional-dependencies]
